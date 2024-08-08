@@ -11,7 +11,7 @@ echo "<br />";
 //pattern-2
 for($i=1;$i<=5;$i++){
     for($j=1;$j<=5-$i;$j++){
-        echo "&nbsp;&nbsp;";
+     echo "&nbsp;&nbsp;";
     }
     for($k=1;$k<=$i;$k++){
                 echo "*&nbsp;&nbsp;";
@@ -33,4 +33,10 @@ for($i=1;$i<=7;$i+=2){
 echo "<br />";
 }
 echo "<br />";
+
+
+//function to get individual characters from the given string
+$x="ranju";
+$y=substr($x,0,1);
+echo $y;
 ?>
